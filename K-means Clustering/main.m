@@ -1,21 +1,19 @@
 function main()
 %MAIN Function with parameters
 
-A = double(imread('Spa.png'));
+input = sprintf('Spa.png');
+
+A = double(imread(input));
+
 A = A / 255;
 
-img_size = size(A);
+K = 16;
 
-
-
-K = 4;
+output = sprintf('Spa_in_%d_colours.png',K);
 
 max_iters = 10;
 
-
-
-
-Iterations(A, max_iters,K);
+Iterations(A, max_iters,K,output);
 
 end
 

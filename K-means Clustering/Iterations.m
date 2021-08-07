@@ -1,4 +1,4 @@
-function Iterations(A,max_iters,K)
+function Iterations(A,max_iters,K,output)
 
 %ITERATIONS run the k means algorithm
 
@@ -41,9 +41,9 @@ end
 % Display compressed image
     
     
-    filename = sprintf('Result.png') ;
+    
 
-    imwrite(X_recovered,filename,'png');
+    imwrite(X_recovered,output,'png');
 
     g = figure;
     
