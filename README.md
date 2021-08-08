@@ -34,7 +34,7 @@ We are going to use the following <a href="https://www.codecogs.com/eqnedit.php?
 
 This image has a file size of 458 KB with pixels of 57678 different colours.
 
-The [main](main.m) function cotains all the parameters for the Algorithm. We set the number of iterations(max_iters) to 10 and number of clusters <a href="https://www.codecogs.com/eqnedit.php?latex=K" target="_blank"><img src="https://latex.codecogs.com/gif.latex?K" title="K" /></a> to 16. Matrix A stores the RGB value of all 500\times500 pixels as a matrix of dimensions <a href="https://www.codecogs.com/eqnedit.php?latex=500\times500\times3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?500\times500\times3" title="500\times500\times3" /></a>. These parameters are passed to the [Interations](Iterations.m) function to run the algorithm.
+The [main](main.m) function cotains all the parameters for the algorithm. We set the number of iterations(max_iters) to 10 and number of clusters <a href="https://www.codecogs.com/eqnedit.php?latex=K" target="_blank"><img src="https://latex.codecogs.com/gif.latex?K" title="K" /></a> to 16. Matrix A stores the RGB value of all <a href="https://www.codecogs.com/eqnedit.php?latex=500\times500" target="_blank"><img src="https://latex.codecogs.com/gif.latex?500\times500" title="500\times500" /></a> pixels as a matrix of dimensions <a href="https://www.codecogs.com/eqnedit.php?latex=500\times500\times3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?500\times500\times3" title="500\times500\times3" /></a>. These parameters are passed to the [Interations](Iterations.m) function to run the algorithm.
 
 The MATLAB [script](Script.mlx) is to call the [main](main.m) function.
 
