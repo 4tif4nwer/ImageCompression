@@ -17,7 +17,7 @@ This algorithm begins with initializing the <a href="https://www.codecogs.com/eq
 ## Image Compression
 ### Pixels of an Image
 
-In a standard 24-bit colour representation of an image, each pixel is represented by three 8 bit unsigned integers(ranging from 0 to 255) that specify the red, green and blue(RGB) intensiy values. 
+In a standard 24-bit colour representation of an image, each pixel is represented by three 8 bit unsigned integers(ranging from 0 to 255) that specify the red, green and blue (RGB) intensiy values. 
 
 ### Clustering of Pixels
 
