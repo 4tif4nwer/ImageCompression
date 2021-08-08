@@ -2,8 +2,6 @@ function Iterations(A,max_iters,K,output)
 
 %ITERATIONS run the k means algorithm
 
-
-
 img_size = size(A);
 
 
