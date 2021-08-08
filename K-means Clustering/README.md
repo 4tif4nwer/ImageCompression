@@ -8,7 +8,7 @@ Clustering is an unsupervised learning problem where we are given a set of data 
 
 K - means clustering aims to partition a set of $N$ vectors/obserations into $K$ clusters with each observation belonging to a cluster with the nearest centroid. Centroid of a cluster is the mean of all vectors/observations belonging to that cluster. Mathematically, let the given N observations be vectors $(x_1,x_2,...x_N)$ of dimension(features) $D$. Let $C_1, C_2, C_3...C_K $ be $K$ clusters and $\mu_1,\mu_2,...\mu_K$ be the mean of vectors contained in them respectively. The K - means clustering aims to minimize the sum Euclidean distances between the data points and the centroid of thier respective clusters. Hence, the objective is to find - 
 
-#####  \[ min\sum_{i=1}^{K}\sum_{x\in C_i}||x-\mu_i||^2 \]  
+#####  <a href="https://www.codecogs.com/eqnedit.php?latex=\[&space;min\sum_{i=1}^{K}\sum_{x\in&space;C_i}||x-\mu_i||^2&space;\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[&space;min\sum_{i=1}^{K}\sum_{x\in&space;C_i}||x-\mu_i||^2&space;\]" title="\[ min\sum_{i=1}^{K}\sum_{x\in C_i}||x-\mu_i||^2 \]" /></a>
 
 ## The Standard Algorithm
 
