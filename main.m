@@ -15,11 +15,11 @@ fprintf('Number of Colours in input image = %d\n',countcolours(X));
 
 A = A / 255;
 
-K = 4;
+K = 4;  %Number of Clusters
 
 output = sprintf('Spa_in_%d_colours.png',K);
 
-max_iters = 10;
+max_iters = 10; %Number of Iterations
 
 Iterations(A, max_iters,K,output);
 
