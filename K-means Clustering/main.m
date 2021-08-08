@@ -1,14 +1,14 @@
 function main()
+
 %MAIN Function with parameters
 
 input = sprintf('Spa.png');
 
 A = double(imread(input));
+
 img_size = size(A);
+
 X = reshape(A, img_size(1) * img_size(2), 3);
-
-
-
         
 fprintf('Number of Colours in input image = %d\n',countcolours(X));                     
             
@@ -24,10 +24,10 @@ max_iters = 10;
 Iterations(A, max_iters,K,output);
 
 A = double(imread(output));
+
 img_size = size(A);
+
 X = reshape(A, img_size(1) * img_size(2), 3);
-
-
 
 fprintf('Number of Colours in output image = %d',countcolours(X));      
 
