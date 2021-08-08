@@ -49,6 +49,7 @@ In order to clearly visulize the effect of clustering, we will intensify the cha
 On running the script for 4 clusters, we get the following output 
 
 ![Spa In 4 colours](Spa_in_4_colours.png)
+
 This image has a file size of 37 KB (Success!).
 
 Here it is clearly visible how the colour scheme has changed. If we create a [3D Scatter Plot](ClusterVisuals4.fig) of the pixels with the X,Y,Z coordinates representing the RGB intensities, the $4$ Clusters can be seen.
