@@ -12,7 +12,7 @@ K - means clustering aims to partition a set of <a href="https://www.codecogs.co
 
 ## The Standard Algorithm
 
-This algorithm begins with initializing the <a href="https://www.codecogs.com/eqnedit.php?latex=K" target="_blank"><img src="https://latex.codecogs.com/gif.latex?K" title="K" /></a> centroids as randomly chosen points in the given data set itself. A certain number of iterations are then run in which, the points in the data set are labelled with the closest of the <a href="https://www.codecogs.com/eqnedit.php?latex=K" target="_blank"><img src="https://latex.codecogs.com/gif.latex?K" title="K" /></a> centroids and the centroids are updated with the mean of all data points with the same labelling. After the iterations, the centroid closest to a point in the data set marks the cluster in with it belongs.
+This algorithm begins with initializing the <a href="https://www.codecogs.com/eqnedit.php?latex=K" target="_blank"><img src="https://latex.codecogs.com/gif.latex?K" title="K" /></a> centroids as randomly chosen points in the given data set itself. A certain number of iterations are then run in which, the points in the data set are labelled with the closest of the <a href="https://www.codecogs.com/eqnedit.php?latex=K" target="_blank"><img src="https://latex.codecogs.com/gif.latex?K" title="K" /></a> centroids and the centroids are updated with the mean of all data points with the same labelling. After the iterations, the centroid closest to a point in the data set marks the cluster in with it belongs. A drawback of this algorithm is that it cannot guarantee to reach a global optimum at the end. Click [here](https://en.wikipedia.org/wiki/K-means_clustering) for more information on these algorithms.
 
 ## Image Compression
 ### Pixels of an Image
