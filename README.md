@@ -1,7 +1,4 @@
 # Image Compression with K - Means Clustering
-Original             |  Compressed by 6 times | Compressed by 24 times
-:-------------------------:|:-------------------------:|:-------------------------:
-![Spa Original](Spa.png) | ![Spa In 16 colours](Spa_in_16_colours.png) | ![Spa In 4 colours](Spa_in_4_colours.png)
 
 ## Clustering
  
